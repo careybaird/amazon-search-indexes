@@ -6,7 +6,7 @@ echo '<pre>';
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-    $regions = array('CA', 'CN', 'DE', 'ES', 'FR', 'IN', 'IT', 'JP', 'UK', 'US', 'BR');
+    $regions = array('CA', 'CN', 'DE', 'ES', 'FR', 'IN', 'IT', 'JP', 'UK', 'US', 'BR', 'MX');
 //    $regions = array('DE');
 
     foreach ($regions as $locale) {
